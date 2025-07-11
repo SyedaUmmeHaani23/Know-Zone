@@ -1,0 +1,38 @@
+Create a full-stack AI web app called “KnowZone – One App to Ask, Connect, Discover & Grow Together”.
+
+💡 Key Features (Use Google tools wherever applicable):
+
+Role-based login for Students/Alumni and Faculty using Firebase Auth.
+
+On signup, collect:
+
+Name, Email, Role, Branch, Year, Batch, USN, College Name (all required)
+LinkedIn Profile (optional)
+For faculty: Employee ID, Designation, Subjects, Experience.
+Save all this in users collection.
+“Ask KnowZone” page with Gemini Chat Block (API key already obtained) – connect to Gemini 2.5.
+
+“Opportunities” page (use posts collection) – list events, internships, hackathons with filtering.
+
+“MentorConnect” – ask questions to seniors/faculty (anonymous or public). Use questions collection.
+
+“Lost & Found” page – upload & view lost items. Use lostFound collection.
+
+“Faculty Dashboard” – show separate view for teachers to:
+
+View student questions and reply
+Post documents, resources, or department circulars
+“LinkedIn Connect” Page – filter users from users collection where linkedin field exists, and display profile cards with name, branch, year, LinkedIn link.
+
+“Bus Tracker” – embed Google Maps live tracking link from busRoutes collection. Students should only view buses they are assigned to. Show co-passengers from the same bus.
+
+Smart Notification logic (use Cloud Functions/FCM) – send daily/weekly opportunity alerts based on user’s interests.
+
+Publish to Firebase Hosting
+
+Tech Stack: Firebase Studio, Firestore, Firebase Auth, Hosting, Gemini API (via Secret Manager), Google Maps Embed, FCM.
+
+Design: Use clean layout, Google-style rounded UI, good spacing, icons, Tailwind/Material if coding is required.
+
+Keep all pages modular with navigation. Connect collections properly, and make sure roles work.
+keep the app with bestestttttt aesthetics implenting google technologies in it and the information i provided and all...and then what u have implented ask ai assistant add a clicking feature if i touch it should open as i already said forum for all students of click a link in connnect with mentors if we touch it should open keep all features running ..correct any log in or sign up and sign in options.....as well as databse also u implement and prepare and give me full functional full fledged running app
